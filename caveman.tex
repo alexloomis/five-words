@@ -1,10 +1,13 @@
-\title{Five Words}
-\author{Alex Loomis}
+\title{\huge \painting{D} \titlefont{Five Words}\hspace{4pt} \painting{s}}
+\author{\titlefont Alex Loomis}
 \date{}
 
 \documentclass[12pt]{article}
-\usepackage[T1]{fontenc}
-\usepackage[light]{merriweather}
+\usepackage{fontspec}
+
+\setmainfont{Latin Modern Sans}
+\newfontfamily\titlefont{Double Scratch}
+\newfontfamily\painting{CavePaintingDingbats}
 
 \begin{document}
 \pagenumbering{gobble}
@@ -14,7 +17,7 @@ Each player chooses five one-syllable words.
 These are the only words they can say for the rest of the game.
 The GM chooses a simple task for the players,
 e.g. ``hunt the mammoth''
-or ``get out of the rain,'' % chktex 38
+or ``get out of the rain,''
 without telling them what it is.
 Using only caveman-talk,
 the GM describes to players their situation,
@@ -33,4 +36,5 @@ after which point the GM narrates in plain English
 what the initial scenario was,
 as well as the task.
 This ends the game.
+\painting{o}
 \end{document}
